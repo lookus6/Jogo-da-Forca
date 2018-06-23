@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Raleway');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+    background: #f7ebd8;
+}
+
+#logo{
+	width: 400px;
+	height: 150px;
+	background: url(../img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -15px;
+}
+
+#logo:hover{
+    opacity: 0.9;
+}
+
+/*Animaçao do modal*/
+@keyframes zoom {
+  0% {
+    transform: scale(0);;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.result{
+    width: 500px;	
+	height:250px;
+    position: absolute;
+    background: rgba(0,0,0,0.85);
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 186px;
+    border-radius: 10px;
+    z-index: 1;
+    animation: 0.3s ease-out 0s 1 zoom;
+}
+
+#box{
+	width: 900px;
+	height: 480px;
+	background: url(../img/bgbox.gif);
+	margin: 0 auto;
+    border-radius: 4px;
+    border: solid black 1px;
+}
+
+.forca{
+    position: absolute;
+    margin-left: 600px;
+    width: 300px;	
+	height:480px;
+	background: url(../img/bg-man.png);
+    border-left: solid black 1px;
+    -webkit-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+}
+
+.forca-h{
+	position: absolute;
+    margin-left: 600px;
+	width: 300px;	
+	height:480px;
+	background: url(../img/man-h.png);
+    border-left: solid black 1px;
+    -webkit-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+}
+
+.forca-hb{
+	position: absolute;
+    margin-left: 600px;
+	width: 300px;	
+	height:480px;
+	background: url(../img/man-hb.png);
+    border-left: solid black 1px;
+    -webkit-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+}
+
+.forca-hbl1{
+	position: absolute;
+    margin-left: 600px;
+	width: 300px;	
+	height:480px;
+	background: url(../img/man-hbl1.png);
+    border-left: solid black 1px;
+    -webkit-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+}
+
+.forca-hbl12{
+	position: absolute;
+    margin-left: 600px;
+	width: 300px;	
+	height:480px;
+	background: url(../img/man-hbl12.png);
+    border-left: solid black 1px;
+    -webkit-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+}
+
+.forca-hbl12p1{
+	position: absolute;
+    margin-left: 600px;
+	width: 300px;	
+	height:480px;
+	background: url(../img/man-hbl12p1.png);
+    border-left: solid black 1px;
+    -webkit-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+}
+
+.forca-lose{
+	position: absolute;
+    margin-left: 600px;
+	width: 300px;	
+	height:480px;
+	background: url(../img/man.png);
+    border-left: solid black 1px;
+    -webkit-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+    box-shadow: inset 13px 2px 26px -6px rgba(0,0,0,0.5);
+}
+
+
+.word{
+	float: left;
+	margin-left: 50px;
+	margin-top: 55px;
+	width: 500px;	
+	height:100px;
+	background: #81624c;
+    border-radius: 4px;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;
+}
+
+.placar{
+    float: left;
+    width: 400px;	
+	height:30px;
+    margin-left: 97px;
+    margin-top:20px;
+	background: #81624c;
+    border-radius: 4px;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;    
+}
+
+#letters-box{
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+	width: 500px;	
+	height:250px;
+	background: #81624c;
+    border-radius: 4px;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;
+}
+
+.letters{
+	float: left;
+	width: 50px;	
+	height:50px;
+	margin-left: 18px;
+	margin-bottom: 10px;
+    color: white;   
+	background: url(../img/boxletter.gif);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.letters:hover{
+	opacity: 0.8;
+}
+
+h1.tx1{
+    margin-top: 8px;
+    font-size: 18pt; 
+    font-family: 'Acme', sans-serif;
+}
+
+h1.tx2{
+    text-align: center;
+    color: white;
+    margin-top: -15px;
+    font-size: 45pt; 
+    font-family: 'Acme', sans-serif;
+}
+
+h1.tx22{
+    text-align: center;
+    color: white;
+    margin-top: -65px;
+    font-size: 45pt; 
+    font-family: 'Acme', sans-serif;
+}
+
+h1.tx3{
+    text-align: left;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 10pt; 
+    font-family: 'Raleway', sans-serif;
+}
+
+h1.tx4{
+    text-align: center;
+    color: white;
+    font-size: 10pt; 
+    font-family: 'Raleway', sans-serif;
+}
