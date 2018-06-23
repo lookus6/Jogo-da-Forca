@@ -1,0 +1,54 @@
+	<html>
+		<head>
+			<title>Jogo da Forca</title>
+			<link rel="stylesheet" href="css/style.css">
+			<script type="text/javascript" src="js/js.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+            <link rel="shortcut icon" type="image/png" href="img/favb.png"/>
+            <meta charset="utf-8">
+		</head>
+		<body onload="loadLine()">
+			<center><div id="logo" class="animated fadeIn"></div></center>
+            <div id="win-lose" class="" onclick="hideR(this.id);">
+                <h1 class="tx4" id="wl"></h1>
+            </div>
+			<div id="box" class="animated fadeIn">
+				<div class="word"> 
+                    <h1 class="tx3">Dica: Frutas</h1>
+                    <h1 class="tx2" id="let"></h1>      
+                    <h1 class="tx22" id="letLose"></h1>
+                </div>
+				<div id="forc" class="forca"></div>
+				<div id="letters-box">
+                    <hr style="visibility: hidden; height: 7px;">
+					<a href="#"><div class="letters"><h1 class="tx1" id="1" onclick="getLetter(this.id);hide(this.id);">A</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="2" onclick="getLetter(this.id);hide(this.id);">B</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="3" onclick="getLetter(this.id);hide(this.id);">C</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="4" onclick="getLetter(this.id);hide(this.id);">D</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="5" onclick="getLetter(this.id);hide(this.id);">E</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="6" onclick="getLetter(this.id);hide(this.id);">F</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="7" onclick="getLetter(this.id);hide(this.id);">G</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="8" onclick="getLetter(this.id);hide(this.id);">H</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="9" onclick="getLetter(this.id);hide(this.id);">I</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="10" onclick="getLetter(this.id);hide(this.id);">J</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="11" onclick="getLetter(this.id);hide(this.id);">K</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="12" onclick="getLetter(this.id);hide(this.id);">L</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="13" onclick="getLetter(this.id);hide(this.id);">M</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="14" onclick="getLetter(this.id);hide(this.id);">N</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="15" onclick="getLetter(this.id);hide(this.id);">O</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="16" onclick="getLetter(this.id);hide(this.id);">P</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="17" onclick="getLetter(this.id);hide(this.id);">Q</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="18" onclick="getLetter(this.id);hide(this.id);">R</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="19" onclick="getLetter(this.id);hide(this.id);">S</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="20" onclick="getLetter(this.id);hide(this.id);">T</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="21" onclick="getLetter(this.id);hide(this.id);">U</h1></div></a>
+					<a href="#"><div class="letters" style="margin-left: 86px;"><h1 class="tx1" id="22" onclick="getLetter(this.id);hide(this.id);">V</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="23" onclick="getLetter(this.id);hide(this.id);hide(this.id);">W</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="24" onclick="getLetter(this.id);hide(this.id);">X</h1></div></a>
+					<a href="#"><div class="letters"><h1 class="tx1" id="25" onclick="getLetter(this.id);hide(this.id);">Y</h1></div></a>
+                    <a href="#"><div class="letters"><h1 class="tx1" id="26" onclick="getLetter(this.id);hide(this.id);">Z</h1></div></a>
+				</div>
+			</div>
+		</body>
+
+	</html>
