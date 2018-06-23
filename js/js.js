@@ -17,12 +17,11 @@ var word = new Array();
     word[15] = "GOIABA";
     word[16] = "GRAVIOLA";
     word[17] = "TANGERINA";
-    word[18] = "JABUTICABA";
-    word[19] = "GUARANA";
-    word[20] = "KIWI";
+    word[18] = "GUARANA";
+    word[19] = "KIWI";
 
 var j = 0;
-var w = Math.floor(Math.random()*21);
+var w = Math.floor(Math.random()*20);
 var ki = new Array(word[w].length);
 var i = 0;
 var error = 0;
